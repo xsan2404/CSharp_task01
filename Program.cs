@@ -6,9 +6,8 @@ while (true)
     int n = InputNumbers("Введите n: ");
 
     int functionAkkerman = Ack(m, n);
-
     Console.Write($"Функция Аккермана = {functionAkkerman} ");
-
+    Console.ReadLine();
     int Ack(int m, int n)
     {
         if (m == 0) return n + 1;
